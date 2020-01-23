@@ -1,0 +1,19 @@
+<% content_for :title do %>
+  Editando Category
+<% end %>
+
+<div class="page-header">
+  <h1>Editando Category</h1>
+  <div>
+    <%= link_to @category, class: 'btn btn-info' do %>
+      <%= icon 'fas', 'eye' %>
+      Ver
+    <% end %>
+    <%= link_to categories_path, class: 'btn btn-outline-secondary' do %>
+      <%= icon 'fas', 'bars' %>
+      Voltar
+    <% end %>
+  </div>
+</div>
+
+<%= render 'form' %>

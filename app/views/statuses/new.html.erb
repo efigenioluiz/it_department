@@ -1,0 +1,13 @@
+<% content_for :title do %>
+  Novo Status
+<% end %>
+
+<div class="page-header">
+  <h1>Novo Status</h1>
+  <%= link_to statuses_path, class: 'btn btn-outline-secondary' do %>
+    <%= icon 'fas', 'bars' %>
+    Voltar
+  <% end %>
+</div>
+
+<%= render 'form' %>

@@ -1,0 +1,13 @@
+<% content_for :title do %>
+  Novo Brand
+<% end %>
+
+<div class="page-header">
+  <h1>Novo Brand</h1>
+  <%= link_to brands_path, class: 'btn btn-outline-secondary' do %>
+    <%= icon 'fas', 'bars' %>
+    Voltar
+  <% end %>
+</div>
+
+<%= render 'form' %>

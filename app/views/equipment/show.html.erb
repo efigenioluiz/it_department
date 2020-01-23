@@ -1,0 +1,35 @@
+<% content_for :title do %>
+  Detalhes de Equipment
+<% end %>
+
+<div class="page-header">
+  <h1>Detalhes de Equipment</h1>
+  <div>
+    <%= link_to edit_equipment_path(@equipment), class: 'btn btn-success' do %>
+      <%= icon 'fas', 'edit' %>
+      Editar
+    <% end %>
+    <%= link_to equipment_index_path, class: 'btn btn-outline-secondary' do %>
+      <%= icon 'fas', 'bars' %>
+      Voltar
+    <% end %>
+  </div>
+</div>
+
+<dl class="dl-horizontal">
+  <dt>Description:</dt>
+  <dd><%= @equipment.description %></dd>
+
+  <dt>Active board:</dt>
+  <dd><%= @equipment.active_board %></dd>
+
+  <dt>Serial number:</dt>
+  <dd><%= @equipment.serial_number %></dd>
+
+  <dt>Status:</dt>
+  <dd><%= @equipment.status.current %></dd>
+  
+  <dt>Category:</dt>
+  <dd><%= @equipment.category.to_s%></dd>
+
+</dl>

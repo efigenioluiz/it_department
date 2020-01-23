@@ -1,0 +1,9 @@
+@import '~bootstrap/scss/bootstrap'; // never forget the semicolon at the end
+@import './scaffold';
+@import "custom-variables";
+@import "coreui-free";
+
+body {
+  margin-bottom: 50px;
+  margin-top: 80px;
+}

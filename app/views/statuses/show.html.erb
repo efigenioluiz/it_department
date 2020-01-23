@@ -1,0 +1,23 @@
+<% content_for :title do %>
+  Detalhes de Status
+<% end %>
+
+<div class="page-header">
+  <h1>Detalhes de Status</h1>
+  <div>
+    <%= link_to edit_status_path(@status), class: 'btn btn-success' do %>
+      <%= icon 'fas', 'edit' %>
+      Editar
+    <% end %>
+    <%= link_to statuses_path, class: 'btn btn-outline-secondary' do %>
+      <%= icon 'fas', 'bars' %>
+      Voltar
+    <% end %>
+  </div>
+</div>
+
+<dl class="dl-horizontal">
+  <dt>Current:</dt>
+  <dd><%= @status.current %></dd>
+
+</dl>

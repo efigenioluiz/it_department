@@ -1,0 +1,525 @@
+DEPRECATION WARNING: Initialization autoloaded the constants ActionText::ContentHelper and ActionText::TagHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ActionText::ContentHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/luiz/ruby/web3-2019-efigenioluiz/trabalho-final/it_department/config/environment.rb:5)
+Started GET "/" for ::1 at 2020-01-22 21:49:35 -0300
+  [1m[35m (2.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (6.0.2.1) lib/active_record/migration.rb:587:in `check_pending!'
+activerecord (6.0.2.1) lib/active_record/migration.rb:564:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.2.1) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.1.1) lib/rack/method_override.rb:24:in `call'
+rack (2.1.1) lib/rack/runtime.rb:24:in `call'
+activesupport (6.0.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.1.1) lib/rack/sendfile.rb:113:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.2.1) lib/rails/engine.rb:526:in `call'
+puma (3.12.2) lib/puma/configuration.rb:227:in `call'
+puma (3.12.2) lib/puma/server.rb:674:in `handle_request'
+puma (3.12.2) lib/puma/server.rb:476:in `process_client'
+puma (3.12.2) lib/puma/server.rb:334:in `block in run'
+puma (3.12.2) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+DEPRECATION WARNING: Initialization autoloaded the constants ActionText::ContentHelper and ActionText::TagHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ActionText::ContentHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/luiz/ruby/web3-2019-efigenioluiz/trabalho-final/it_department/config/environment.rb:5)
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (23.6ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (21.6ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+DEPRECATION WARNING: Initialization autoloaded the constants ActionText::ContentHelper and ActionText::TagHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ActionText::ContentHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/luiz/ruby/web3-2019-efigenioluiz/trabalho-final/it_department/config/environment.rb:5)
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to DeviseCreateUsers (20191025214412)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE TABLE "users" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")[0m
+  [1m[36mprimary::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20191025214412"]]
+  [1m[35m (15.9ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateManufacturers (20191026002131)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[35mCREATE TABLE "manufacturers" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name_manufacturer" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20191026002131"]]
+  [1m[35m (16.0ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateBrands (20191026002259)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.6ms)[0m  [1m[35mCREATE TABLE "brands" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name_brand" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20191026002259"]]
+  [1m[35m (10.4ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateCategories (20191026002428)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[35mCREATE TABLE "categories" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "brand_id" integer NOT NULL, "manufacturer_id" integer NOT NULL, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL, CONSTRAINT "fk_rails_d242d35c13"
+FOREIGN KEY ("brand_id")
+  REFERENCES "brands" ("id")
+, CONSTRAINT "fk_rails_d3004407cf"
+FOREIGN KEY ("manufacturer_id")
+  REFERENCES "manufacturers" ("id")
+)[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE  INDEX "index_categories_on_brand_id" ON "categories" ("brand_id")[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE  INDEX "index_categories_on_manufacturer_id" ON "categories" ("manufacturer_id")[0m
+  [1m[36mprimary::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20191026002428"]]
+  [1m[35m (8.1ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateEquipment (20191101134910)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "equipment" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "description" varchar, "active_board" varchar, "serial_number" varchar, "category_id" integer, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL, CONSTRAINT "fk_rails_bede910432"
+FOREIGN KEY ("category_id")
+  REFERENCES "categories" ("id")
+)[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE  INDEX "index_equipment_on_category_id" ON "equipment" ("category_id")[0m
+  [1m[36mprimary::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20191101134910"]]
+  [1m[35m (18.4ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateStatuses (20191111113454)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.6ms)[0m  [1m[35mCREATE TABLE "statuses" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "current" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20191111113454"]]
+  [1m[35m (12.8ms)[0m  [1m[36mcommit transaction[0m
+Migrating to AddStatusToEquipment (20191112223727)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.8ms)[0m  [1m[35mALTER TABLE "equipment" ADD "status_id" integer[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE  INDEX "index_equipment_on_status_id" ON "equipment" ("status_id")[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE TEMPORARY TABLE "aequipment" ("id" integer NOT NULL PRIMARY KEY, "description" varchar DEFAULT NULL, "active_board" varchar DEFAULT NULL, "serial_number" varchar DEFAULT NULL, "category_id" integer DEFAULT NULL, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL, "status_id" integer DEFAULT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE  INDEX "tindex_aequipment_on_status_id" ON "aequipment" ("status_id")[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE  INDEX "tindex_aequipment_on_category_id" ON "aequipment" ("category_id")[0m
+  [1m[35m (0.1ms)[0m  [1m[32mINSERT INTO "aequipment" ("id","description","active_board","serial_number","category_id","created_at","updated_at","status_id")
+                     SELECT "id","description","active_board","serial_number","category_id","created_at","updated_at","status_id" FROM "equipment"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE "equipment"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE TABLE "equipment" ("id" integer NOT NULL PRIMARY KEY, "description" varchar DEFAULT NULL, "active_board" varchar DEFAULT NULL, "serial_number" varchar DEFAULT NULL, "category_id" integer DEFAULT NULL, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL, "status_id" integer DEFAULT NULL, CONSTRAINT "fk_rails_bede910432"
+FOREIGN KEY ("category_id")
+  REFERENCES "categories" ("id")
+, CONSTRAINT "fk_rails_5877b03b79"
+FOREIGN KEY ("status_id")
+  REFERENCES "statuses" ("id")
+)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE  INDEX "index_equipment_on_category_id" ON "equipment" ("category_id")[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE  INDEX "index_equipment_on_status_id" ON "equipment" ("status_id")[0m
+  [1m[35m (0.1ms)[0m  [1m[32mINSERT INTO "equipment" ("id","description","active_board","serial_number","category_id","created_at","updated_at","status_id")
+                     SELECT "id","description","active_board","serial_number","category_id","created_at","updated_at","status_id" FROM "aequipment"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE "aequipment"[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[36mprimary::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20191112223727"]]
+  [1m[35m (13.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.2ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-01-23 00:50:01.951711"], ["updated_at", "2020-01-23 00:50:01.951711"]]
+  [1m[35m (13.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+DEPRECATION WARNING: Initialization autoloaded the constants ActionText::ContentHelper and ActionText::TagHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ActionText::ContentHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/luiz/ruby/web3-2019-efigenioluiz/trabalho-final/it_department/config/environment.rb:5)
+Started GET "/" for ::1 at 2020-01-22 21:50:14 -0300
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by EquipmentController#index as HTML
+Completed 401 Unauthorized in 11ms (ActiveRecord: 0.0ms | Allocations: 4366)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-01-22 21:50:14 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 52.8ms | Allocations: 22506)
+[Webpacker] Compiling...
+Started GET "/" for ::1 at 2020-01-22 21:50:20 -0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by EquipmentController#index as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms | Allocations: 290)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-01-22 21:50:20 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 22.3ms | Allocations: 8212)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/luiz/ruby/web3-2019-efigenioluiz/trabalho-final/it_department/public/packs
+Completed 200 OK in 15490ms (Views: 15479.4ms | ActiveRecord: 0.8ms | Allocations: 2880054)
+
+
+[Webpacker] Compiled all packs in /home/luiz/ruby/web3-2019-efigenioluiz/trabalho-final/it_department/public/packs
+Completed 200 OK in 10220ms (Views: 10218.7ms | ActiveRecord: 0.0ms | Allocations: 22933)
+
+
+Started POST "/users/sign_in" for ::1 at 2020-01-22 21:50:38 -0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"9WPAbCoIft1/FB/tDk7210eOQPpDBHQDH46mta7BkGVhKz+ydccoJe3VIWyvFp4DYP9T/5ULYSA+j0OpGpnYLw==", "user"=>{"email"=>"adm@adm.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms | Allocations: 424)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"9WPAbCoIft1/FB/tDk7210eOQPpDBHQDH46mta7BkGVhKz+ydccoJe3VIWyvFp4DYP9T/5ULYSA+j0OpGpnYLw==", "user"=>{"email"=>"adm@adm.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 14.9ms | Allocations: 8200)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 26ms (Views: 24.9ms | ActiveRecord: 0.0ms | Allocations: 19308)
+
+
+Started POST "/users/sign_in" for ::1 at 2020-01-22 21:50:43 -0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"SxgLyM8Gnyy5RAsE3V/sz92As/5OdomYq732joUBl1jfUPQWkMnJ1CuFNYV8B4Qb+vGg+5h5nLuKvBOSMVnfEg==", "user"=>{"email"=>"adm@adm.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "adm@adm.com"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 6ms (ActiveRecord: 0.2ms | Allocations: 2471)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"SxgLyM8Gnyy5RAsE3V/sz92As/5OdomYq732joUBl1jfUPQWkMnJ1CuFNYV8B4Qb+vGg+5h5nLuKvBOSMVnfEg==", "user"=>{"email"=>"adm@adm.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 13.9ms | Allocations: 8212)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 172ms (Views: 24.8ms | ActiveRecord: 0.0ms | Allocations: 20563)
+
+
+Started POST "/users/sign_in" for ::1 at 2020-01-22 21:50:46 -0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"5nGTGPUpl6b7tDIHImu76/3jovH7e51yJq1gnqjPgVZyOWzGqubBXml1DIaDM9M/2pKx9C10iFEHrIWCHJfJHA==", "user"=>{"email"=>"adm@adm.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "adm@adm.com"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 5ms (ActiveRecord: 0.2ms | Allocations: 1768)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"5nGTGPUpl6b7tDIHImu76/3jovH7e51yJq1gnqjPgVZyOWzGqubBXml1DIaDM9M/2pKx9C10iFEHrIWCHJfJHA==", "user"=>{"email"=>"adm@adm.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 14.3ms | Allocations: 8211)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 170ms (Views: 26.6ms | ActiveRecord: 0.0ms | Allocations: 19338)
+
+
+Started GET "/users/sign_up" for ::1 at 2020-01-22 21:50:50 -0300
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 3.7ms | Allocations: 547)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 39.5ms | Allocations: 7759)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 64ms (Views: 62.4ms | ActiveRecord: 0.0ms | Allocations: 19719)
+
+
+Started POST "/users" for ::1 at 2020-01-22 21:50:55 -0300
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"/vW6yEzzkAmZ/epITAJuW4xzYGrH9QP3+fhsX4pINwrsNUtOlIV6wlxxqmKupZYA8P4SBzhQfps5BseGAtadOg==", "user"=>{"email"=>"adm@adm.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "adm@adm.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "adm@adm.com"], ["encrypted_password", "$2a$11$rLrPSfps.QBo7gvYUe/dxespxRXz9idghLVIZ69rwon4qQyPsU2Ey"], ["created_at", "2020-01-23 00:50:55.361528"], ["updated_at", "2020-01-23 00:50:55.361528"]]
+  [1m[35m (4.6ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 163ms (ActiveRecord: 5.2ms | Allocations: 9602)
+
+
+Started GET "/" for ::1 at 2020-01-22 21:50:55 -0300
+Processing by EquipmentController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering equipment/index.html.erb within layouts/application
+  [1m[36mEquipment Load (0.2ms)[0m  [1m[34mSELECT "equipment".* FROM "equipment"[0m
+  ↳ app/views/equipment/index.html.erb:27
+  Rendered equipment/index.html.erb within layouts/application (Duration: 3.6ms | Allocations: 1742)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 27ms (Views: 15.9ms | ActiveRecord: 0.7ms | Allocations: 16359)
+
+
+Started GET "/equipment/new" for ::1 at 2020-01-22 21:50:57 -0300
+Processing by EquipmentController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering equipment/new.html.erb within layouts/application
+  [1m[36mStatus Load (0.3ms)[0m  [1m[34mSELECT "statuses".* FROM "statuses" ORDER BY "statuses"."current" ASC[0m
+  ↳ app/views/equipment/_form.html.erb:9
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."id" ASC[0m
+  ↳ app/views/equipment/_form.html.erb:10
+  Rendered equipment/_form.html.erb (Duration: 34.7ms | Allocations: 13266)
+  Rendered equipment/new.html.erb within layouts/application (Duration: 36.9ms | Allocations: 13755)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 69ms (Views: 52.8ms | ActiveRecord: 1.9ms | Allocations: 30911)
+
+
+Started GET "/equipment" for ::1 at 2020-01-22 21:50:58 -0300
+Processing by EquipmentController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering equipment/index.html.erb within layouts/application
+  [1m[36mEquipment Load (0.1ms)[0m  [1m[34mSELECT "equipment".* FROM "equipment"[0m
+  ↳ app/views/equipment/index.html.erb:27
+  Rendered equipment/index.html.erb within layouts/application (Duration: 3.3ms | Allocations: 633)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 31ms (Views: 26.1ms | ActiveRecord: 0.3ms | Allocations: 13082)
+
+
+Started GET "/manufacturers" for ::1 at 2020-01-22 21:50:59 -0300
+Processing by ManufacturersController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering manufacturers/index.html.erb within layouts/application
+  [1m[36mManufacturer Load (0.3ms)[0m  [1m[34mSELECT "manufacturers".* FROM "manufacturers"[0m
+  ↳ app/views/manufacturers/index.html.erb:23
+  Rendered manufacturers/index.html.erb within layouts/application (Duration: 4.9ms | Allocations: 1354)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 72ms (Views: 21.6ms | ActiveRecord: 1.3ms | Allocations: 15297)
+
+
+Started GET "/brands" for ::1 at 2020-01-22 21:51:00 -0300
+Processing by BrandsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering brands/index.html.erb within layouts/application
+  [1m[36mBrand Load (0.3ms)[0m  [1m[34mSELECT "brands".* FROM "brands"[0m
+  ↳ app/views/brands/index.html.erb:23
+  Rendered brands/index.html.erb within layouts/application (Duration: 6.0ms | Allocations: 1347)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 38ms (Views: 28.2ms | ActiveRecord: 1.0ms | Allocations: 15307)
+
+
+Started GET "/categories" for ::1 at 2020-01-22 21:51:01 -0300
+Processing by CategoriesController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/categories/index.html.erb:22
+  Rendered categories/index.html.erb within layouts/application (Duration: 4.7ms | Allocations: 1139)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 20ms (Views: 17.6ms | ActiveRecord: 0.4ms | Allocations: 14320)
+
+
+Started GET "/" for ::1 at 2020-01-22 21:51:02 -0300
+Processing by EquipmentController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering equipment/index.html.erb within layouts/application
+  [1m[36mEquipment Load (0.2ms)[0m  [1m[34mSELECT "equipment".* FROM "equipment"[0m
+  ↳ app/views/equipment/index.html.erb:27
+  Rendered equipment/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 637)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 24ms (Views: 18.1ms | ActiveRecord: 0.7ms | Allocations: 13098)
+
+
+Started GET "/equipment/new" for ::1 at 2020-01-22 21:51:05 -0300
+Processing by EquipmentController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering equipment/new.html.erb within layouts/application
+  [1m[36mStatus Load (0.2ms)[0m  [1m[34mSELECT "statuses".* FROM "statuses" ORDER BY "statuses"."current" ASC[0m
+  ↳ app/views/equipment/_form.html.erb:9
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."id" ASC[0m
+  ↳ app/views/equipment/_form.html.erb:10
+  Rendered equipment/_form.html.erb (Duration: 25.4ms | Allocations: 9024)
+  Rendered equipment/new.html.erb within layouts/application (Duration: 26.0ms | Allocations: 9158)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 43ms (Views: 37.7ms | ActiveRecord: 0.6ms | Allocations: 21494)
+
+
+Started GET "/equipment" for ::1 at 2020-01-22 21:51:07 -0300
+Processing by EquipmentController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering equipment/index.html.erb within layouts/application
+  [1m[36mEquipment Load (0.2ms)[0m  [1m[34mSELECT "equipment".* FROM "equipment"[0m
+  ↳ app/views/equipment/index.html.erb:27
+  Rendered equipment/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 632)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 23ms (Views: 19.5ms | ActiveRecord: 0.3ms | Allocations: 13074)
+
+
+Started GET "/manufacturers" for ::1 at 2020-01-22 21:51:09 -0300
+Processing by ManufacturersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering manufacturers/index.html.erb within layouts/application
+  [1m[36mManufacturer Load (0.1ms)[0m  [1m[34mSELECT "manufacturers".* FROM "manufacturers"[0m
+  ↳ app/views/manufacturers/index.html.erb:23
+  Rendered manufacturers/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 637)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 25ms (Views: 20.6ms | ActiveRecord: 0.3ms | Allocations: 13075)
+
+
+Started GET "/brands" for ::1 at 2020-01-22 21:51:10 -0300
+Processing by BrandsController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering brands/index.html.erb within layouts/application
+  [1m[36mBrand Load (0.1ms)[0m  [1m[34mSELECT "brands".* FROM "brands"[0m
+  ↳ app/views/brands/index.html.erb:23
+  Rendered brands/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 637)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 26ms (Views: 22.9ms | ActiveRecord: 0.3ms | Allocations: 13071)
+
+
+Started GET "/equipment.pdf" for ::1 at 2020-01-22 21:51:12 -0300
+Processing by EquipmentController#index as PDF
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering equipment/index.pdf.prawn
+  [1m[36mEquipment Load (0.3ms)[0m  [1m[34mSELECT "equipment".* FROM "equipment"[0m
+  ↳ app/views/equipment/index.pdf.prawn:7:in `collect'
+  Rendered equipment/index.pdf.prawn (Duration: 30.3ms | Allocations: 52416)
+Completed 500 Internal Server Error in 36ms (ActiveRecord: 0.5ms | Allocations: 55599)
+
+
+  
+ActionView::Template::Error (data must be a non-empty, non-nil, two dimensional array of cell-convertible objects):
+    4:     pdf.text 'Equipment Report', :align => :center, :size => 24
+    5:     pdf.move_down 20
+    6:    # pdf.table @equipment.collect{|p| [p.description,p.active_board,p.serial_number,p.category.to_s,p.status.current]}
+    7:     pdf.table @equipment.collect{|e| 
+    8:         [
+    9:             e.description,
+   10:             e.active_board,
+  
+app/views/equipment/index.pdf.prawn:7
+app/views/equipment/index.pdf.prawn:1
+DEPRECATION WARNING: Initialization autoloaded the constants ActionText::ContentHelper and ActionText::TagHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ActionText::ContentHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/luiz/ruby/web3-2019-efigenioluiz/trabalho-final/it_department/config/environment.rb:5)
+Started GET "/" for ::1 at 2020-01-22 22:18:53 -0300
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by EquipmentController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering equipment/index.html.erb within layouts/application
+  [1m[36mEquipment Load (0.2ms)[0m  [1m[34mSELECT "equipment".* FROM "equipment"[0m
+  ↳ app/views/equipment/index.html.erb:27
+  Rendered equipment/index.html.erb within layouts/application (Duration: 7.3ms | Allocations: 1977)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1139ms (Views: 1100.8ms | ActiveRecord: 2.0ms | Allocations: 1332187)
+
+
+DEPRECATION WARNING: Initialization autoloaded the constants ActionText::ContentHelper and ActionText::TagHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ActionText::ContentHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/luiz/ruby/it_department/config/environment.rb:5)
+Started GET "/" for ::1 at 2020-01-22 22:43:46 -0300
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by EquipmentController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering equipment/index.html.erb within layouts/application
+  [1m[36mEquipment Load (0.2ms)[0m  [1m[34mSELECT "equipment".* FROM "equipment"[0m
+  ↳ app/views/equipment/index.html.erb:27
+  Rendered equipment/index.html.erb within layouts/application (Duration: 7.2ms | Allocations: 1774)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 972ms (Views: 945.8ms | ActiveRecord: 1.9ms | Allocations: 1334435)
+
+
+Started GET "/equipment.pdf" for ::1 at 2020-01-22 22:44:07 -0300
+Processing by EquipmentController#index as PDF
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering equipment/index.pdf.prawn
+  [1m[36mEquipment Load (0.1ms)[0m  [1m[34mSELECT "equipment".* FROM "equipment"[0m
+  ↳ app/views/equipment/index.pdf.prawn:7:in `collect'
+  Rendered equipment/index.pdf.prawn (Duration: 28.8ms | Allocations: 52750)
+Completed 500 Internal Server Error in 34ms (ActiveRecord: 0.2ms | Allocations: 55960)
+
+
+  
+ActionView::Template::Error (data must be a non-empty, non-nil, two dimensional array of cell-convertible objects):
+    4:     pdf.text 'Equipment Report', :align => :center, :size => 24
+    5:     pdf.move_down 20
+    6:    # pdf.table @equipment.collect{|p| [p.description,p.active_board,p.serial_number,p.category.to_s,p.status.current]}
+    7:     pdf.table @equipment.collect{|e| 
+    8:         [
+    9:             e.description,
+   10:             e.active_board,
+  
+app/views/equipment/index.pdf.prawn:7
+app/views/equipment/index.pdf.prawn:1
+Started DELETE "/users/sign_out" for ::1 at 2020-01-22 22:44:19 -0300
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"XSqHBmSxyMPwEyMcsGDy6pOmJohGyq7kPLpX+a7HF1rJYnjYO36eO2LSHZ0ROJo+tNc1jZDFu8cdu7LlGp9fEA=="}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 11ms (ActiveRecord: 0.1ms | Allocations: 5337)
+
+
+Started GET "/" for ::1 at 2020-01-22 22:44:19 -0300
+Processing by EquipmentController#index as HTML
+Completed 401 Unauthorized in 3ms (ActiveRecord: 0.0ms | Allocations: 301)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-01-22 22:44:19 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 27.7ms | Allocations: 15169)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 65ms (Views: 63.2ms | ActiveRecord: 0.0ms | Allocations: 27640)
+
+

@@ -1,0 +1,14 @@
+digraph models_diagram {
+	graph[overlap=false, splines=true, bgcolor="none"]
+	"Manufacturer" [shape=Mrecord, label="{Manufacturer|id :integer\lname_manufacturer :varchar\lcreated_at :datetime(6)\lupdated_at :datetime(6)\l}"]
+	"User" [shape=Mrecord, label="{User|id :integer\lemail :varchar\lencrypted_password :varchar\lreset_password_token :varchar\lreset_password_sent_at :datetime\lremember_created_at :datetime\lcreated_at :datetime(6)\lupdated_at :datetime(6)\l}"]
+	"ApplicationRecord" []
+	"Status" [shape=Mrecord, label="{Status|id :integer\lcurrent :varchar\lcreated_at :datetime(6)\lupdated_at :datetime(6)\l}"]
+	"Brand" [shape=Mrecord, label="{Brand|id :integer\lname_brand :varchar\lcreated_at :datetime(6)\lupdated_at :datetime(6)\l}"]
+	"Category" [shape=Mrecord, label="{Category|id :integer\lbrand_id :integer\lmanufacturer_id :integer\lcreated_at :datetime(6)\lupdated_at :datetime(6)\l}"]
+	"Equipment" [shape=Mrecord, label="{Equipment|id :integer\ldescription :varchar\lactive_board :varchar\lserial_number :varchar\lcategory_id :integer\lcreated_at :datetime(6)\lupdated_at :datetime(6)\lstatus_id :integer\l}"]
+	"Manufacturer" -> "Category" [arrowtail=odot, arrowhead=crow, dir=both color="#B7D824"]
+	"Status" -> "Equipment" [arrowtail=odot, arrowhead=crow, dir=both color="#9DECAB"]
+	"Brand" -> "Category" [arrowtail=odot, arrowhead=crow, dir=both color="#11BCDF"]
+	"Category" -> "Equipment" [arrowtail=odot, arrowhead=crow, dir=both color="#E01F57"]
+}

@@ -1,0 +1,23 @@
+<% content_for :title do %>
+  Detalhes de Brand
+<% end %>
+
+<div class="page-header">
+  <h1>Detalhes de Brand</h1>
+  <div>
+    <%= link_to edit_brand_path(@brand), class: 'btn btn-success' do %>
+      <%= icon 'fas', 'edit' %>
+      Editar
+    <% end %>
+    <%= link_to brands_path, class: 'btn btn-outline-secondary' do %>
+      <%= icon 'fas', 'bars' %>
+      Voltar
+    <% end %>
+  </div>
+</div>
+
+<dl class="dl-horizontal">
+  <dt>Name brand:</dt>
+  <dd><%= @brand.name_brand %></dd>
+
+</dl>
